@@ -322,3 +322,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.content {
+  display: block;
+  margin: auto;
+}
+
+.content p {
+  text-align: center;
+}
+.media-section {
+    display: block;
+    margin: auto;
+}
