@@ -78,6 +78,10 @@ body {
         display: none;
     }
   }
+
+  img {
+    border-radius: 10px;
+  }
   
   /* Slideshow container */
   .slideshow-container {
