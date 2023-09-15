@@ -159,7 +159,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with 4 cards per row on laptop screens */
   gap: 50px; /* Adjust the gap between cards as needed */
   margin: 20px 0; /* Adjust margin as needed */
-  padding: 20px;
+  padding: 20px 25%;
 }
 
 /* Style for each card */
