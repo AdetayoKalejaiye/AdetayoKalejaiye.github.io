@@ -336,6 +336,11 @@ body {
   text-align: center;
 }
 .media-section {
-    display: block;
-    margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* At least 320px wide, 3 in a row */
+  gap: 20px; /* Adjust the gap between images as needed */
+  text-align: center; /* Center the text within */
+  margin: auto;
+  max-width: 100%; /* Optional, to make sure it doesn't overflow on smaller screens */
+  padding: 20px;
 }
