@@ -344,3 +344,31 @@ body {
   max-width: 100%; /* Optional, to make sure it doesn't overflow on smaller screens */
   padding: 20px;
 }
+
+  /* Styling for the footer */
+  footer {
+    background-color: #f0f0f0; /* Gray background color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center-align the content */
+    color: #333; /* Dark text color */
+}
+
+/* Styling for social media links */
+.social-media {
+    margin-top: 10px; /* Space between text and icons */
+}
+
+.social-media a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Dark text color for links */
+    margin: 0 10px; /* Space between links */
+}
+
+.social-media a:hover {
+    color: #0073e6; /* Change link color on hover */
+}
+
+/* Styling for social media icons */
+.social-media i {
+    font-size: 24px; /* Icon size */
+}
